@@ -20,6 +20,8 @@ Este proyecto es parte del módulo "Programación avanzada en Javascript" del Bo
 
 ```plaintext
 .
+|-- LICENSE
+|-- README.md
 |-- assets
 |   |-- css
 |   |   `-- style.css
