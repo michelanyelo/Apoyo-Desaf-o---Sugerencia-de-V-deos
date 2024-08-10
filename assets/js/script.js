@@ -54,3 +54,8 @@ class Reproductor extends Multimedia {
 const musica = new Reproductor("https://www.youtube.com/embed/4xDzrJKXOOY?si=BVxIW_zSlmXlc-WK", "#musica");
 const pelicula = new Reproductor("https://www.youtube.com/embed/LnHJ5vbgBzs?si=eE56gUA2rpsu5EbP", "#peliculas");
 const series = new Reproductor("https://www.youtube.com/embed/FDpOQK0Gprc?si=yd4VHnMYsuNRQmzO", "#series");
+
+musica.playMultimedia();
+pelicula.playMultimedia();
+series.playMultimedia();
+series.setInicio(120);
