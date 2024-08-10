@@ -11,3 +11,18 @@ const moduloCuevana = (() => {
         }
     };
 })();
+
+// Clase Multimedia con un atributo protegido usando closures
+class Multimedia {
+    #url;
+    constructor(url) {
+        this.#url = url;
+        this.getUrl = function () {
+            return this.#url;
+        };
+    }
+
+    setInicio() {
+        return "Este método es para realizar un cambio en la URL del video";
+    }
+}
