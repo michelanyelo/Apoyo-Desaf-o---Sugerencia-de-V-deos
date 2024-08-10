@@ -49,3 +49,8 @@ class Reproductor extends Multimedia {
         this.getInicio(newUrl, this.id);
     }
 }
+
+// Crear instancias y reproducir multimedia
+const musica = new Reproductor("https://www.youtube.com/embed/4xDzrJKXOOY?si=BVxIW_zSlmXlc-WK", "#musica");
+const pelicula = new Reproductor("https://www.youtube.com/embed/LnHJ5vbgBzs?si=eE56gUA2rpsu5EbP", "#peliculas");
+const series = new Reproductor("https://www.youtube.com/embed/FDpOQK0Gprc?si=yd4VHnMYsuNRQmzO", "#series");
