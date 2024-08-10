@@ -38,4 +38,9 @@ class Reproductor extends Multimedia {
     playMultimedia() {
         moduloCuevana.getMultimedia(this.getUrl(), this.id);
     }
+
+    // Métodos para ajustar el inicio del video
+    getInicio(url, id) {
+        moduloCuevana.getMultimedia(url, id);
+    }
 }
