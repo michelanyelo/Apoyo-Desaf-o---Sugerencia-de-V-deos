@@ -33,4 +33,9 @@ class Reproductor extends Multimedia {
         super(url);
         this.id = id;
     }
+
+    // Método para reproducir multimedia
+    playMultimedia() {
+        moduloCuevana.getMultimedia(this.getUrl(), this.id);
+    }
 }
