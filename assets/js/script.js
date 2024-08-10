@@ -43,4 +43,9 @@ class Reproductor extends Multimedia {
     getInicio(url, id) {
         moduloCuevana.getMultimedia(url, id);
     }
+
+    setInicio(runTime) {
+        const newUrl = `${this.getUrl()}&start=${runTime}`;
+        this.getInicio(newUrl, this.id);
+    }
 }
